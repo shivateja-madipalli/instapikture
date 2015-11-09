@@ -1,0 +1,18 @@
+
+<div class="input-group">
+      <input type="text" class="form-control" placeholder="Location">
+      <span class="input-group-btn">
+        <button class="btn btn-secondary" type="button">Search</button>
+      </span>
+</div>
+<div ng-style="clearance === 0 && {'width':'200px'}
+ || count === 1 && {'width':'100px'}"
+  style="height:100px;border:1px solid gray;background-color: blue">
+
+</div>
+
+<div ng-class="{clearance: item.clearance, new: item.salesStatus === 'new'}">
+
+</div>
+
+<!-- ng-class="{clearance: item.clearance, new: item.salesStatus === 'new'}" -->
